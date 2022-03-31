@@ -1,0 +1,2 @@
+g++ -std=c++11 -I /usr/include/opencv4 -o cattle_tracking ./main.cpp -lopencv_tracking -lopencv_core -lopencv_video -lopencv_videoio -lopencv_imgproc -lopencv_imgcodecs -lopencv_highgui -lglog -lvitis_ai_library-tfssd -pthread
+g++ -std=c++11 -I /usr/include/opencv4 -o cattle_tracking_test ./test.cpp -lopencv_tracking -lopencv_core -lopencv_video -lopencv_videoio -lopencv_imgproc -lopencv_imgcodecs -lopencv_highgui -lglog -lvitis_ai_library-tfssd -pthread
